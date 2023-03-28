@@ -1,0 +1,25 @@
+{
+  "name": "generatereadme",
+  "version": "1.0.0",
+  "description": "generateReadMeFile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Sniff/generateReadMe.git"
+  },
+  "keywords": [
+    "generateReadMe"
+  ],
+  "author": "Sniff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Sniff/generateReadMe/issues"
+  },
+  "homepage": "https://github.com/J-Sniff/generateReadMe#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
