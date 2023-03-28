@@ -9,7 +9,7 @@ It will add in a description, table of contents, licenses, contact information, 
 
 ## How to Use
 
-If you're curious to see this in action [clickhere](https://drive.google.com/file/d/1DwX4hGCxyMUlyb6GxPJr7PlRgYaWeft0/preview).
+If you're curious to see this in action [click here](https://drive.google.com/file/d/1DwX4hGCxyMUlyb6GxPJr7PlRgYaWeft0/preview).
 As you can see this application is very easy to use.
 
 ## Support
