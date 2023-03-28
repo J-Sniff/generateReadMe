@@ -84,7 +84,43 @@ This project is licensed under the terms of the [BSD 3-Clause License](${renderL
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.projectTitle}
+
+  ${renderLicenseBadge(data.license)}
+
+  ## Description
+
+  ${data.projectDescription}
+
+  ## Table of Contents
+
+  -[Installation](#installation)
+  -[Usage](#usage)
+  -[Contributing](#contributing)
+  -[Tests](#tests)
+  -[License](#license)
+  -[Questions](#questions)
+
+  ## Installation
+
+  ${data.installationInstructions}
+
+  ## Usage
+
+  ${data.usageInformation}
+
+  ## Contributing
+
+  ${data.contributionGuidelines}
+
+  ## Tests
+
+  ${data.testInstructions}
+  ${renderLicenseSection(data.license)}
+
+  ## Questions
+
+  If you have any questions, concerns, or comments please reachout to me on [Github](https://github.com/${data.githubUsername} or at ${data.email}).
 
 `;
 }
